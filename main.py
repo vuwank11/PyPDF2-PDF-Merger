@@ -2,7 +2,8 @@ import PyPDF2
 import os
 
 pdf_files = []  # creating an empty list for files
-path = "COMMUNICATION SYSTEM SIR NOTES"
+path = "COMMUNICATION SYSTEM SIR NOTES" # name or path of the directory in which you have your pdfs
+
 
 
 for filename in os.listdir(path):
